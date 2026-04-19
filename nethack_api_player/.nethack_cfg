@@ -1,7 +1,0 @@
-NETHACK_API_KEY=sk-6dc6bd0085c2463e9f74cc538c09f8a1
-NETHACK_API_URL=https://api.deepseek.com
-NETHACK_MODEL=deepseek-chat
-NETHACK_CHARACTER=
-NETHACK_VERBOSE=1
-NETHACK_SCRIPT_DIR=/mnt/c/Users/ASUS/Desktop/ai_play_nethack/nethack_api_player
-NETHACK_LANG=zh
