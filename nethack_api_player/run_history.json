@@ -1,0 +1,15 @@
+{
+  "games": [
+    {
+      "turns": 5000,
+      "depth": 0,
+      "cause": "Died on level 1 with 0 HP, likely from an early combat encounter while poorly equipped.",
+      "lessons": [
+        "Prioritize finding basic armor and a weapon immediately on level 1 to survive initial monsters.",
+        "Do not explore deeper or engage in combat with only starting robes and no means of defense or escape.",
+        "Use early turns to search for a dagger in a sink or a weapon shop, and consider eating a corpse to gain intrinsic resistance if safe."
+      ],
+      "date": "2026-04-19"
+    }
+  ]
+}

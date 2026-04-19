@@ -1,0 +1,51 @@
+{
+  "potion of healing": {
+    "name": "potion of healing",
+    "category": "potion",
+    "effect": "Restores HP. Blessed: full heal. Cursed: reduces max HP.",
+    "notes": "Use when HP < 60%. Do NOT use if cursed. Drink with 'drink' action.",
+    "source": "wiki"
+  },
+  "potion of extra healing": {
+    "name": "potion of extra healing",
+    "category": "potion",
+    "effect": "Restores more HP than potion of healing. Also cures blindness.",
+    "notes": "Save for emergencies (HP < 40%). Higher priority than regular healing.",
+    "source": "wiki"
+  },
+  "potion of full healing": {
+    "name": "potion of full healing",
+    "category": "potion",
+    "effect": "Fully restores HP and increases max HP.",
+    "notes": "Most valuable healing item. Only use when near death.",
+    "source": "wiki"
+  },
+  "scroll of identify": {
+    "name": "scroll of identify",
+    "category": "scroll",
+    "effect": "Identifies one or more items in inventory.",
+    "notes": "Use to identify unknown potions/scrolls/rings before using them.",
+    "source": "wiki"
+  },
+  "scroll of teleportation": {
+    "name": "scroll of teleportation",
+    "category": "scroll",
+    "effect": "Teleports you to a random location on the current level.",
+    "notes": "Useful escape tool when surrounded. Cursed version confuses you instead.",
+    "source": "wiki"
+  },
+  "food ration": {
+    "name": "food ration",
+    "category": "food",
+    "effect": "Fills nutrition. Most filling food item.",
+    "notes": "Eat when Hungry or Weak. Do not wait until Fainting.",
+    "source": "wiki"
+  },
+  "quarterstaff": {
+    "name": "quarterstaff",
+    "category": "weapon",
+    "effect": "Wizard starting weapon. Two-handed, decent early damage.",
+    "notes": "Keep equipped as wizard. Do not swap unless you find something clearly better.",
+    "source": "wiki"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "lang": "zh",
+  "api_key": "sk-6dc6bd0085c2463e9f74cc538c09f8a1",
+  "api_url": "https://api.deepseek.com",
+  "model": "deepseek-chat"
+}

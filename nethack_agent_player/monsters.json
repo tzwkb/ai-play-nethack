@@ -1,0 +1,51 @@
+{
+  "newt": {
+    "name": "newt",
+    "symbol": "n",
+    "threat": "low",
+    "notes": "Can drain strength or dexterity on hit. Do NOT melee as wizard. Let pet handle it.",
+    "source": "wiki"
+  },
+  "jackal": {
+    "name": "jackal",
+    "symbol": "d",
+    "threat": "low",
+    "notes": "Fast mover, low damage. Let pet handle or flee if HP < 60%.",
+    "source": "wiki"
+  },
+  "fox": {
+    "name": "fox",
+    "symbol": "d",
+    "threat": "low-medium",
+    "notes": "Faster than jackal. Flee if HP < 60%, especially if combined with other enemies.",
+    "source": "wiki"
+  },
+  "kitten": {
+    "name": "kitten",
+    "symbol": "f",
+    "threat": "none",
+    "notes": "Your starting pet. Do NOT attack. Let it fight for you. Use wait to let it move first.",
+    "source": "wiki"
+  },
+  "grid bug": {
+    "name": "grid bug",
+    "symbol": "x",
+    "threat": "very low",
+    "notes": "Only moves in cardinal directions. Easy to dodge diagonally. Low XP.",
+    "source": "wiki"
+  },
+  "kobold": {
+    "name": "kobold",
+    "symbol": "k",
+    "threat": "low",
+    "notes": "Weak melee. Sometimes carries items. Let pet handle.",
+    "source": "wiki"
+  },
+  "goblin": {
+    "name": "goblin",
+    "symbol": "o",
+    "threat": "low",
+    "notes": "Weak early enemy. Can carry items. Avoid melee as wizard.",
+    "source": "wiki"
+  }
+}
