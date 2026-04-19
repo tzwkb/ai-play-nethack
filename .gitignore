@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pyo
+.nethack_cfg
+.nethack_prefs
+logs/
