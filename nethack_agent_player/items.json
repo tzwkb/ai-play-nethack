@@ -3,49 +3,168 @@
     "name": "potion of healing",
     "category": "potion",
     "effect": "Restores HP. Blessed: full heal. Cursed: reduces max HP.",
-    "notes": "Use when HP < 60%. Do NOT use if cursed. Drink with 'drink' action.",
+    "notes": "Use when HP < 60%. keys:q,<letter>",
     "source": "wiki"
   },
   "potion of extra healing": {
     "name": "potion of extra healing",
     "category": "potion",
-    "effect": "Restores more HP than potion of healing. Also cures blindness.",
-    "notes": "Save for emergencies (HP < 40%). Higher priority than regular healing.",
+    "effect": "Restores more HP, cures blindness.",
+    "notes": "Save for HP < 40%. keys:q,<letter>",
     "source": "wiki"
   },
   "potion of full healing": {
     "name": "potion of full healing",
     "category": "potion",
-    "effect": "Fully restores HP and increases max HP.",
-    "notes": "Most valuable healing item. Only use when near death.",
+    "effect": "Fully restores HP and raises max HP.",
+    "notes": "Only use near death. keys:q,<letter>",
+    "source": "wiki"
+  },
+  "potion of speed": {
+    "name": "potion of speed",
+    "category": "potion",
+    "effect": "Grants fast speed temporarily (or permanently if blessed).",
+    "notes": "Use when fleeing or in combat. keys:q,<letter>",
+    "source": "wiki"
+  },
+  "potion of object detection": {
+    "name": "potion of object detection",
+    "category": "potion",
+    "effect": "Reveals all items on current level including stairs.",
+    "notes": "USE THIS to find stairs down (>). Extremely valuable. keys:q,<letter>",
+    "source": "wiki"
+  },
+  "potion of paralysis": {
+    "name": "potion of paralysis",
+    "category": "potion",
+    "effect": "Paralyzes you for several turns.",
+    "notes": "DANGEROUS. Do NOT drink. Can throw at enemies.",
+    "source": "wiki"
+  },
+  "potion of confusion": {
+    "name": "potion of confusion",
+    "category": "potion",
+    "effect": "Confuses you, causing random movement.",
+    "notes": "DANGEROUS. Do NOT drink unless intentional.",
     "source": "wiki"
   },
   "scroll of identify": {
     "name": "scroll of identify",
     "category": "scroll",
-    "effect": "Identifies one or more items in inventory.",
-    "notes": "Use to identify unknown potions/scrolls/rings before using them.",
+    "effect": "",
+    "notes": "Identified at death",
     "source": "wiki"
   },
   "scroll of teleportation": {
     "name": "scroll of teleportation",
     "category": "scroll",
-    "effect": "Teleports you to a random location on the current level.",
-    "notes": "Useful escape tool when surrounded. Cursed version confuses you instead.",
+    "effect": "Teleports you to random location on current level.",
+    "notes": "Useful escape. Cursed: confuses instead. keys:r,<letter>",
+    "source": "wiki"
+  },
+  "scroll of magic mapping": {
+    "name": "scroll of magic mapping",
+    "category": "scroll",
+    "effect": "Reveals entire current level map including unexplored areas.",
+    "notes": "USE THIS if you can't find stairs. Reveals all rooms and corridors. keys:r,<letter>",
+    "source": "wiki"
+  },
+  "scroll of light": {
+    "name": "scroll of light",
+    "category": "scroll",
+    "effect": "Illuminates a dark room permanently.",
+    "notes": "Use in dark rooms to reveal layout. keys:r,<letter>",
+    "source": "wiki"
+  },
+  "wand of secret door detection": {
+    "name": "wand of secret door detection",
+    "category": "wand",
+    "effect": "Reveals all secret doors and passages on current level.",
+    "notes": "USE THIS when you can't find stairs or exits. Zap in any direction. keys:z,<letter>,<direction>. Direction keys: k=north j=south h=west l=east",
+    "source": "wiki"
+  },
+  "wand of cancellation": {
+    "name": "wand of cancellation",
+    "category": "wand",
+    "effect": "Cancels monster special abilities. Also cancels your own items if aimed at self.",
+    "notes": "Useful against monsters with special attacks. Do NOT zap at yourself. keys:z,<letter>,<direction>",
+    "source": "wiki"
+  },
+  "wand of light": {
+    "name": "wand of light",
+    "category": "wand",
+    "effect": "Illuminates the area around you.",
+    "notes": "Use in dark areas. keys:z,<letter>,<direction>",
+    "source": "wiki"
+  },
+  "ring of conflict": {
+    "name": "ring of conflict",
+    "category": "ring",
+    "effect": "Causes all nearby monsters to fight each other instead of you.",
+    "notes": "Extremely powerful. Put on immediately. keys:P,<letter>",
+    "source": "wiki"
+  },
+  "ring of regeneration": {
+    "name": "ring of regeneration",
+    "category": "ring",
+    "effect": "Greatly speeds up HP regeneration.",
+    "notes": "Put on when HP is low and you need to recover. keys:P,<letter>",
+    "source": "wiki"
+  },
+  "ring of polymorph control": {
+    "name": "ring of polymorph control",
+    "category": "ring",
+    "effect": "Lets you choose your form when polymorphed.",
+    "notes": "Advanced use. Keep in inventory for now.",
     "source": "wiki"
   },
   "food ration": {
     "name": "food ration",
     "category": "food",
-    "effect": "Fills nutrition. Most filling food item.",
-    "notes": "Eat when Hungry or Weak. Do not wait until Fainting.",
+    "effect": "",
+    "notes": "Identified at death",
     "source": "wiki"
   },
   "quarterstaff": {
     "name": "quarterstaff",
     "category": "weapon",
-    "effect": "Wizard starting weapon. Two-handed, decent early damage.",
-    "notes": "Keep equipped as wizard. Do not swap unless you find something clearly better.",
+    "effect": "Wizard starting weapon. Two-handed.",
+    "notes": "Keep equipped. keys:w,<letter> to wield.",
+    "source": "wiki"
+  },
+  "spellbook of magic missile": {
+    "name": "spellbook of magic missile",
+    "category": "spellbook",
+    "effect": "Teaches magic missile spell (ranged attack).",
+    "notes": "Read to learn spell. keys:r,<letter>. Then cast with keys:Z,<spell_letter>",
+    "source": "wiki"
+  },
+  "spellbook of force bolt": {
+    "name": "spellbook of force bolt",
+    "category": "spellbook",
+    "effect": "Teaches force bolt spell (ranged attack, hits boulders).",
+    "notes": "Read to learn. Can push boulders with force bolt. keys:r,<letter>",
+    "source": "wiki"
+  },
+  "+1 long sword (weapon in hand)": {
+    "name": "+1 long sword (weapon in hand)",
+    "category": "weapon",
+    "effect": "",
+    "notes": "Identified at death",
+    "source": "wiki"
+  },
+  "+0 dagger (alternate weapon; not wielded)": {
+    "name": "+0 dagger (alternate weapon; not wielded)",
+    "category": "weapon",
+    "effect": "",
+    "notes": "Identified at death",
+    "source": "wiki"
+  },
+  "ring of sustain ability": {
+    "name": "ring of sustain ability",
+    "category": "ring",
+    "effect": "",
+    "notes": "Identified at death",
     "source": "wiki"
   }
 }

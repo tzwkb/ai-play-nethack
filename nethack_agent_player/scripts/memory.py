@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 class Memory:
-    def __init__(self, path="./run_history.json"):
+    def __init__(self, path="./nethack_memory.json"):
         self.path = path
 
     def load(self, last_n=5):

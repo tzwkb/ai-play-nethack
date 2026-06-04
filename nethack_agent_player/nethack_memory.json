@@ -1,0 +1,45 @@
+{
+  "games": [
+    {
+      "date": "2026-04-20",
+      "turns": 116,
+      "depth": 1,
+      "cause": "stopped mid-run (trapped in corridor, HP 5/12)",
+      "lessons": [
+        "ACTION_MAP had wrong indices: search=75 (should be 61), pickup=61 (should be 50), open=57 (should be 48), drink=64 (should be 53), eat=35 (should be 30) — fixed in env.py and SKILL.md",
+        "Wizards must not melee; narrow corridors prevent pet from helping — avoid entering 1-tile corridors with enemies behind",
+        "First floor can have boulder-blocked corridors; need to push boulders or find alternate routes",
+        "Running play.py via tmux is reliable; direct nohup fails because WSL instance terminates"
+      ]
+    },
+    {
+      "turns": 415,
+      "depth": 1,
+      "cause": "unknown — agent should update after analysis",
+      "lessons": [],
+      "date": "2026-04-21"
+    },
+    {
+      "date": "2026-04-27",
+      "turns": 70,
+      "depth": 1,
+      "cause": "paused by user after picking up unopened large box",
+      "lessons": [
+        "Containers (box/chest/large box) must be opened (kick/unlock) before looting. Never pick up unopened containers early game — large boxes are extremely heavy and burden movement/combat."
+      ]
+    },
+    {
+      "turns": 229,
+      "depth": 3,
+      "cause": "Killed by a gnome lord in The Gnomish Mines (Dlvl 3) at XP level 1, 9/16 HP: flanked by a gnome lord + hobbit, chose to fight instead of ascending the escape-hatch upstairs, took a 9-dmg hit and died.",
+      "lessons": [
+        "Flanked at low HP by a 'lord' monster -> ascend the up-stairs you arrived on; do NOT trade blows in the open. The escape hatch was set up but not used.",
+        "Reached Dlvl 3 / the Mines at XP level 1 (under-leveled). The Dlvl 2-4 down-branch can be the lethal Gnomish Mines; grind XP before going deeper.",
+        "Carried an UNREAD blessed scroll of identify + an uncursed ring of sustain ability at death — reading identify (safe) would have IDed the ring. Don't hoard usable ID/escape items.",
+        "Wasted ~60 turns on a pet-held ring chase and forcing an EMPTY locked box, gaining 0 XP -> stayed level 1. Prioritise XP/progress over marginal loot.",
+        "Identified at death: ring of sustain ability, scroll of identify (tiger-eye-ring / KERNOD-WEL appearances this game)."
+      ],
+      "date": "2026-06-04"
+    }
+  ]
+}

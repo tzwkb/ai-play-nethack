@@ -1,51 +1,26 @@
 {
-  "newt": {
-    "name": "newt",
-    "symbol": "n",
-    "threat": "low",
-    "notes": "Can drain strength or dexterity on hit. Do NOT melee as wizard. Let pet handle it.",
-    "source": "wiki"
-  },
-  "jackal": {
-    "name": "jackal",
-    "symbol": "d",
-    "threat": "low",
-    "notes": "Fast mover, low damage. Let pet handle or flee if HP < 60%.",
-    "source": "wiki"
-  },
-  "fox": {
-    "name": "fox",
-    "symbol": "d",
-    "threat": "low-medium",
-    "notes": "Faster than jackal. Flee if HP < 60%, especially if combined with other enemies.",
-    "source": "wiki"
-  },
-  "kitten": {
-    "name": "kitten",
-    "symbol": "f",
-    "threat": "none",
-    "notes": "Your starting pet. Do NOT attack. Let it fight for you. Use wait to let it move first.",
-    "source": "wiki"
-  },
-  "grid bug": {
-    "name": "grid bug",
-    "symbol": "x",
-    "threat": "very low",
-    "notes": "Only moves in cardinal directions. Easy to dodge diagonally. Low XP.",
-    "source": "wiki"
-  },
-  "kobold": {
-    "name": "kobold",
-    "symbol": "k",
-    "threat": "low",
-    "notes": "Weak melee. Sometimes carries items. Let pet handle.",
-    "source": "wiki"
-  },
-  "goblin": {
-    "name": "goblin",
-    "symbol": "o",
-    "threat": "low",
-    "notes": "Weak early enemy. Can carry items. Avoid melee as wizard.",
-    "source": "wiki"
-  }
+  "newt": {"name": "newt", "symbol": "n", "threat": "low", "notes": "Can drain STR or DEX on hit. Do NOT melee as wizard. Let pet handle.", "source": "wiki"},
+  "jackal": {"name": "jackal", "symbol": "d", "threat": "low", "notes": "Fast, low damage. Let pet handle or flee if HP < 60%.", "source": "wiki"},
+  "fox": {"name": "fox", "symbol": "d", "threat": "low-medium", "notes": "Faster than jackal. Flee if HP < 60%.", "source": "wiki"},
+  "kitten": {"name": "kitten", "symbol": "f", "threat": "none", "notes": "Your starting pet. Do NOT attack. Use wait to let it move first.", "source": "wiki"},
+  "little dog": {"name": "little dog", "symbol": "d", "threat": "none", "notes": "Starting pet for some roles. Do NOT attack.", "source": "wiki"},
+  "grid bug": {"name": "grid bug", "symbol": "x", "threat": "very low", "notes": "Only moves cardinally. Dodge diagonally. Low XP.", "source": "wiki"},
+  "kobold": {"name": "kobold", "symbol": "k", "threat": "low", "notes": "Weak melee. Sometimes carries items. Let pet handle.", "source": "wiki"},
+  "goblin": {"name": "goblin", "symbol": "o", "threat": "low", "notes": "Weak early enemy. Can carry items. Avoid melee as wizard.", "source": "wiki"},
+  "lichen": {"name": "lichen", "symbol": "F", "threat": "very low", "notes": "Moves very slowly. Can grab and hold you (slows movement). Kill quickly or flee. No stat drain.", "source": "manual"},
+  "rat": {"name": "rat", "symbol": "r", "threat": "low", "notes": "Fast, low damage. Let pet handle.", "source": "manual"},
+  "bat": {"name": "bat", "symbol": "B", "threat": "low", "notes": "Flies, erratic movement. Low damage. Let pet handle.", "source": "manual"},
+  "hobgoblin": {"name": "hobgoblin", "symbol": "o", "threat": "low-medium", "notes": "Stronger than goblin. Avoid melee as wizard.", "source": "manual"},
+  "orc": {"name": "orc", "symbol": "o", "threat": "medium", "notes": "Can carry weapons/armor. Dangerous in groups. Flee if multiple.", "source": "manual"},
+  "gnome": {"name": "gnome", "symbol": "G", "threat": "low", "notes": "Can carry items. Sometimes has wands. Let pet handle.", "source": "manual"},
+  "zombie": {"name": "zombie", "symbol": "Z", "threat": "low-medium", "notes": "Slow but can cause disease. Avoid melee. Let pet handle.", "source": "manual"},
+  "skeleton": {"name": "skeleton", "symbol": "Z", "threat": "medium", "notes": "Immune to cold, sleep, poison. Can throw bones. Flee.", "source": "manual"},
+  "snake": {"name": "snake", "symbol": "S", "threat": "low-medium", "notes": "Can poison. Avoid melee as wizard.", "source": "manual"},
+  "centipede": {"name": "centipede", "symbol": "s", "threat": "low", "notes": "Can poison. Let pet handle.", "source": "manual"},
+  "yellow mold": {"name": "yellow mold", "symbol": "m", "threat": "low", "notes": "Stationary. Releases spores when hit. Avoid melee.", "source": "manual"},
+  "brown mold": {"name": "brown mold", "symbol": "m", "threat": "low", "notes": "Stationary. Cold attack. Avoid melee.", "source": "manual"},
+  "gas spore": {"name": "gas spore", "symbol": "e", "threat": "high", "notes": "EXPLODES on death dealing massive damage. Never melee. Flee immediately.", "source": "manual"},
+  "floating eye": {"name": "floating eye", "symbol": "e", "threat": "high", "notes": "Paralyzes you if you melee it. NEVER attack directly. Use wand or let pet handle.", "source": "manual"},
+  "leprechaun": {"name": "leprechaun", "symbol": "l", "threat": "medium", "notes": "Steals gold. Fast. Flee or let pet handle.", "source": "manual"},
+  "nymph": {"name": "nymph", "symbol": "n", "threat": "high", "notes": "Steals items from inventory. Flee immediately on sight.", "source": "manual"}
 }
