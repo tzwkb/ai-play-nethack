@@ -1,43 +1,7 @@
 # AI Plays NetHack
 
-<!-- bilingual-readme:start -->
+[中文](README_ZH.md) | English
 
-## 双语说明 / Bilingual Documentation
-
-> 本节提供整篇 README 的中英双语维护说明；下方保留原始详细说明、命令、路径和配置示例。
-> This section provides bilingual maintenance notes for the full README; the original detailed notes, commands, paths, and configuration examples are preserved below.
-
-### 中文
-
-**概览**：基于 NLE 的 NetHack AI 游玩/观测项目，包含面向不同受众的运行与展示模块。
-
-**主要能力**：
-- 通过 NLE 环境运行或观察 AI 玩 NetHack。
-- 保留跨局记忆和运行历史。
-- 适合实验、演示和 agent 行为观察。
-
-**使用方式**：按下方模块说明安装依赖、选择入口并运行。
-
-**状态**：该仓库仍按当前 README 的说明维护或使用。
-
-**注意事项**：NetHack/NLE 行为细节以原 README 的最新变更和模块说明为准。
-
-### English
-
-**Overview**: NLE-based NetHack AI play and observation project with modules for different audiences.
-
-**Key capabilities**:
-- Runs or watches AI play NetHack through an NLE environment.
-- Keeps cross-run memory and run history.
-- Useful for experiments, demos, and agent-behavior observation.
-
-**Usage**: Install dependencies, choose the appropriate module, and run the entrypoint described below.
-
-**Status**: This repository is maintained or used according to the current README notes.
-
-**Notes**: NetHack/NLE behavior details follow the latest-change notes and module descriptions below.
-
-<!-- bilingual-readme:end -->
 
 Two modules for watching AI play NetHack, built for different audiences.
 
