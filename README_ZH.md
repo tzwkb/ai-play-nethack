@@ -29,17 +29,13 @@
 
 按下方模块说明安装依赖、选择入口并运行。
 
-## 状态
-
-该仓库仍按当前 README 的说明维护或使用。
-
 ## 注意事项
 
 NetHack/NLE 行为细节以原 README 的最新变更和模块说明为准。
 
 ## 命令与配置参考
 
-以下代码块从主 README 保留；命令、路径和配置键不翻译，复制时请以实际环境为准。
+以下命令、路径和配置键保持原样，复制时请以实际环境为准。
 
 ```
 # Invoke via Claude Code skill: nethack_agent_player
@@ -59,7 +55,3 @@ discover new rules → update SKILL.md
         ↓
 nethack_api_player/game.py SYSTEM_PROMPT updated
 ```
-
-## 详细技术说明
-
-主 README 保留了原始技术细节、历史说明、完整命令和文件结构。本文件作为中文版本维护核心说明；需要逐项核对命令时，请参照主 README 的代码块和路径。
