@@ -1,11 +1,23 @@
 # AI Plays NetHack
 
-[English](README.md) | 中文
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 
+[English](README.md) | 中文
 
 ## 概览
 
 基于 NLE 的 NetHack AI 游玩/观测项目，包含面向不同受众的运行与展示模块。
+
+## 文档对齐说明
+
+本 README_ZH.md 与英文 README.md 使用同一项目事实，但采用中文读者更容易扫描的结构。命令、路径、配置键和示例数据保持原样。
+
+## 主要能力
+
+- 通过面向 Agent 的 API 控制 NetHack 会话。
+- 保留导航提示、运行历史和角色支持说明。
+- 区分研究/开发流程和普通查看流程。
 
 ## 主要能力
 
