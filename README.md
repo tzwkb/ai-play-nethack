@@ -1,6 +1,6 @@
 # AI Plays NetHack
 
-[中文](README_ZH.md) | English
+English | [中文](README_ZH.md)
 
 
 Two modules for watching AI play NetHack, built for different audiences.
